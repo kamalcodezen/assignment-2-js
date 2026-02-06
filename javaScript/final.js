@@ -28,22 +28,51 @@ function validOtp(otp) {
     }
 }
 
-/**    ================   problem  validOtp ==================        */
+/**    ================   problem 2  validOtp ==================        */
 
 
-/**  ============   BCS Final Score Calculator ==================        */
-
+/**  ============  problem 3 BCS Final Score Calculator ==================        */
 function finalScore(omr) {
 
-    if (typeof omr !== "object" || omr.right + omr.wrong + omr.skip !== 100) {
+    if (typeof omr !== "object" || Array.isArray(omr) || omr.right + omr.wrong + omr.skip !== 100) {
         return "Invalid";
     }
     let rightAnswer = omr.right * +1;
     let wrongAnswer = omr.wrong * -0.5;
     let skipQuestion = omr.skip * 0;
     let score = rightAnswer + wrongAnswer + skipQuestion;
-
     return Math.round(score);
 }
 
-/**  ============   BCS Final Score Calculator==================        */
+
+/**  ============  problem 3 BCS Final Score Calculator==================        */
+
+
+/**  ============ problem 4  gonoVote count==================        */
+
+
+function gonoVote(array) {
+    let haCount = 0;
+    let naCount = 0;
+    if (Array.isArray(array) !== true) {
+        return "Invalid"
+    }
+
+    for (let i of array) {
+        if (i == "ha") {
+            haCount++
+        }
+        if (i == "na") {
+            naCount++;
+        }
+    }
+
+    if (haCount > naCount) {
+        return true;
+    } else if (haCount === naCount) {
+        return "equal";
+    } else {
+        return false;
+    }
+}
+/**  ============  problem 4 gonoVote count==================        */

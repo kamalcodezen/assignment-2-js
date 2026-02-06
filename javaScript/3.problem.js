@@ -1,7 +1,7 @@
 
 function finalScore(omr) {
 
-    if (typeof omr !== "object" || omr.right + omr.wrong + omr.skip !== 100) {
+    if (typeof omr !== "object" || Array.isArray(omr) || omr.right + omr.wrong + omr.skip !== 100) {
         return "Invalid";
     }
     let rightAnswer = omr.right * +1;

@@ -1,5 +1,5 @@
 
-/**    ================   problem 1  ==================        */
+/**    ================   problem 1 newPrice ==================        */
 
 function newPrice(currentPrice, discount) {
 
@@ -11,4 +11,21 @@ function newPrice(currentPrice, discount) {
     return newPrice.toFixed(3);
 }
 
-/**    ================   problem 1  ==================        */
+/**    ================   problem 1 newPrice  ==================        */
+
+
+/**    ================   problem 2 validOtp ==================        */
+
+
+function validOtp(otp) {
+    if (typeof otp !== "string") {
+        return "Invalid";
+    }
+    if (otp.length === 8 && otp.startsWith("ph-")) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+/**    ================   problem  validOtp ==================        */

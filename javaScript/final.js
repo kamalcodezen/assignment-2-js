@@ -1,4 +1,6 @@
-// problem 1
+
+/**    ================   problem 1  ==================        */
+
 function newPrice(currentPrice, discount) {
 
     if (typeof currentPrice !== "number" || typeof discount !== "number" || (discount < 0 || discount > 100)) {
@@ -9,4 +11,4 @@ function newPrice(currentPrice, discount) {
     return newPrice.toFixed(3);
 }
 
-console.log(newPrice(1500, 20));
+/**    ================   problem 1  ==================        */

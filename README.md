@@ -1,4 +1,4 @@
-# 📘 JavaScript Assignment – Programming Hero
+# 📘 JavaScript Assignment 3 – Programming Hero
 
 This repository contains my solutions for **JavaScript Assignment (Milestone 3)** from **Programming Hero**.  
 The assignment focuses on JavaScript fundamentals, logic building, and problem solving.

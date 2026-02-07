@@ -12,4 +12,4 @@ function finalScore(omr) {
 }
 
 
-console.log(finalScore({ right: 67, wrong: 23, skip: 10 }))
+console.log(finalScore({ right: 67, wrong: 23, skip: 10 }));

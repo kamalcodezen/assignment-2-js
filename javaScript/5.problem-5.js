@@ -23,4 +23,4 @@ function analyzeText(str) {
 
 }
 
-console.log(analyzeText(""))
+console.log(analyzeText(""));

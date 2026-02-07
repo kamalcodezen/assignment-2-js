@@ -74,3 +74,17 @@ The assignment focuses on JavaScript fundamentals, logic building, and problem s
 - Non-array input returns `"Invalid"`
 
 **Example:**
+
+
+---
+
+### 🔹 Problem 05: Text Analyzer for an AI Company
+**Function Name:** `analyzeText()`
+
+- Takes a sentence (string)
+- Finds the **longest word**
+- Counts total characters **excluding spaces**
+- Returns an object `{ longwords, token }`
+- Invalid input returns `"Invalid"`
+
+**Example:**

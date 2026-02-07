@@ -88,3 +88,25 @@ The assignment focuses on JavaScript fundamentals, logic building, and problem s
 - Invalid input returns `"Invalid"`
 
 **Example:**
+
+
+---
+
+## 🛠️ Technologies Used
+- JavaScript (ES6)
+
+---
+
+## 🎯 Learning Outcome
+- Improved logic building
+- Better understanding of functions
+- Input validation handling
+- Clean and readable JavaScript code
+
+---
+
+## 👤 Author
+**Sk Kamaluddin**  
+Programming Hero Student
+
+⭐ If you find this repository helpful, feel free to give it a star!

@@ -59,3 +59,18 @@ The assignment focuses on JavaScript fundamentals, logic building, and problem s
 - Invalid input returns `"Invalid"`
 
 **Example:**
+
+
+---
+
+### 🔹 Problem 04: Upcoming Gono Vote
+**Function Name:** `gonoVote()`
+
+- Takes an array of votes (`"ha"` or `"na"`)
+- Returns:
+  - `true` → ha is majority
+  - `"equal"` → same count
+  - `false` → na is majority
+- Non-array input returns `"Invalid"`
+
+**Example:**

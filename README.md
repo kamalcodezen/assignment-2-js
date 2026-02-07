@@ -29,3 +29,17 @@ The assignment focuses on JavaScript fundamentals, logic building, and problem s
 - Returns `"Invalid"` for invalid inputs
 
 **Example:**
+
+
+---
+
+### 🔹 Problem 02: OTP Validation for Zapshift
+**Function Name:** `validOtp()`
+
+- Takes OTP as a string
+- OTP must be **8 characters**
+- Must start with `"ph-"`
+- Returns `true`, `false`, or `"Invalid"`
+
+**Example:**
+

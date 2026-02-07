@@ -43,3 +43,19 @@ The assignment focuses on JavaScript fundamentals, logic building, and problem s
 
 **Example:**
 
+
+---
+
+### 🔹 Problem 03: BCS Final Score Calculator
+**Function Name:** `finalScore()`
+
+- Takes an object `{ right, wrong, skip }`
+- Total questions must equal **100**
+- Scoring rules:
+  - Right: +1
+  - Wrong: -0.5
+  - Skip: 0
+- Returns **rounded final score**
+- Invalid input returns `"Invalid"`
+
+**Example:**

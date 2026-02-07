@@ -54,13 +54,14 @@ function finalScore(omr) {
 function gonoVote(array) {
     let haCount = 0;
     let naCount = 0;
+
     if (Array.isArray(array) !== true) {
-        return "Invalid"
+        return "Invalid";
     }
 
     for (let i of array) {
         if (i == "ha") {
-            haCount++
+            haCount++;
         }
         if (i == "na") {
             naCount++;

@@ -52,13 +52,13 @@ function finalScore(omr) {
 
 
 function gonoVote(array) {
-    let haCount = 0;
-    let naCount = 0;
 
     if (Array.isArray(array) !== true) {
         return "Invalid";
     }
-
+    
+    let haCount = 0;
+    let naCount = 0;
     for (let i of array) {
         if (i == "ha") {
             haCount++;
@@ -77,3 +77,31 @@ function gonoVote(array) {
     }
 }
 /**  ============  problem 4 gonoVote count==================        */
+
+
+/**  ============  problem 5 analyzeText==================        */
+
+function analyzeText(str) {
+
+    if (typeof str !== "string" || str.trim().length === 0) {
+        return "Invalid";
+    }
+
+    let strArray = str.split(" ");
+
+    let countArray = strArray[0];
+    for (let i of strArray) {
+        if (i.length > countArray.length) {
+            countArray = i;
+        }
+    }
+
+    let textCount = strArray.join("").length;
+
+    return {
+        longwords: countArray,
+        token: textCount
+    }
+
+}
+/**  ============  problem 5 analyzeText==================        */
